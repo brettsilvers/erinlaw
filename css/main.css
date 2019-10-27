@@ -67,7 +67,7 @@ max-width:24%;
 }
 
 #pdp-video, .pdp-video {
-	position: fixed;
+	//position: fixed;
 	right: 0;
 	bottom: 0;
 	min-width: 100%; 
