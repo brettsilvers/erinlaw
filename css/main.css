@@ -76,10 +76,13 @@ padding-top:50px;
 .segment:first-child{
 	padding-top:0px;
 	vertical-align:bottom;
+
+}
+
+#splash-segment{	
 	padding-bottom:0;
 	 position: absolute;
-  bottom: 0px;
-}
+  bottom: 0px;}
 
 li{list-style-type: none;
 display: block;
