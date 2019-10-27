@@ -1,18 +1,18 @@
 body{margin: 0 auto;}
 
 img, iframe{width:100%!important;
-height:calc(100%*,1.77777777778)!important;
+//height:calc(100%*,1.77777777778)!important;
 }
 
 a:hover{color:green!important;}
 
-h1, #h1{
+h1{
 	//font-family: "Work Sans", "Arial", sans-serif;
 	font-family: "Arial", sans-serif;
 	//color: black;
 	font-size: 16pt;
 	font-style: normal;
-	//line-height:18pt;
+	line-height:18pt;
 	letter-spacing: 2pt;
 	font-weight: 900;
 	text-transform: uppercase;
@@ -28,6 +28,8 @@ h1, #h1{
 margin-block-end: 0px;
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
+	  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 p, li{font-family: "Work Sans", "Arial", sans-serif;
