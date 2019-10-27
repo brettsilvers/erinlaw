@@ -1,6 +1,6 @@
 body{margin: 0 auto;}
 
-img{width:100%;}
+img, iframe{width:100%;}
 
 a:hover{color:green!important;}
 
