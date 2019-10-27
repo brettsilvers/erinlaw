@@ -123,7 +123,7 @@ z-index:-1;
 	 // vertical-align: bottom;
 }
 
-#hero-segment{
+#hero-segment, #herosegment2{
 	width:100vw;
 	margin-left: -36vw;
 }
