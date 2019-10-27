@@ -52,7 +52,7 @@ a:hover{font-weight:600;}
 a:active, a:target, li:active, li:target{font-weight:700;}
 
 
-strong{font-weight: 600;}
+strong{font-weight: 500;}
 
 .container{
 	//max-width:640px;
