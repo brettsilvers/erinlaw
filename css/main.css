@@ -9,7 +9,7 @@ h1{
 	letter-spacing: 2pt;
 	font-weight: 900;
 	text-transform: uppercase;
-	text-align:center;
+	//text-align:center;
 	transform: scale(1, .8);
  	-webkit-transform: scale(1, .8); /* Safari and Chrome */
  	-moz-transform: scale(1, .8); /* Firefox */
@@ -46,6 +46,7 @@ margin-right:12%;}
 .content{margin-left:36%;
 //max-width:;
 	float:right;
+	position:absolute
 }
 
 .navigation{
