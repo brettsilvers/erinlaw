@@ -127,13 +127,16 @@ z-index:-1;
 }
 
 #hero-segment{
-    background-size: cover;
+   // background-size: cover;
 	width:100vw;
 	margin-left: -36vw;
 
 }
 
-#segment-image{background-image:url("https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png");}
+#hero-segment-image{background-image:url("https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png");
+    background-size: cover;
+	width:100vw;
+	margin-left: -36vw;}
 
 
 @media only screen and (max-width: 480px) {
