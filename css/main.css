@@ -42,11 +42,15 @@ p{font-weight: 300;}
 
 strong{font-weight: 500;}
 
-.container{margin-left:12%;
+.container{
+	margin-left:12%;
 margin-right:12%;
-padding-top:100px;}
+margin-top:100px;
+	position:relative;
+}
 
 .content{margin-left:24%;
+	//margin-right:12%;
 //max-width:;
 	float:right;
 	position:absolute
