@@ -33,7 +33,7 @@ margin-block-end: 0px;
 	  -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 	  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: white;
+ // -webkit-text-stroke-color: white;
 }
 
 p, li{font-family: "Work Sans", "Arial", sans-serif;
