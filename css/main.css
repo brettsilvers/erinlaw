@@ -58,12 +58,7 @@ margin-top:100px;
 	//position:relative;
 }
 
-.content{margin-left:24vw;
-	//margin-right:12vw;
-//max-width:;
-	//float:right;
-	//position:absolute
-}
+.content{margin-left:24vw;}
 
 .segment{
 
@@ -73,9 +68,7 @@ margin-top:100px;
 	vertical-align:middle;
 padding-top:50px;
 	padding-bottom:50px;
-	//margin: 0 auto;
-	//overflow:hidden;
-	position:aboslute;
+	position:absolute;
 }
 
 .segment:first-child{padding-top:0px;
