@@ -79,8 +79,9 @@ padding-top:50px;
 
 }
 
-#splash-segment{	
+.splash-segment{	
 	padding-bottom:0;
+	vertical-align:bottom;
 	// position: absolute;
   bottom: 0px;}
 
