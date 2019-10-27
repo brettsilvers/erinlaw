@@ -22,6 +22,9 @@
   gtag('js', new Date());
   gtag('config', 'UA-40994036-2');
 </script>
+	
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
@@ -64,3 +67,68 @@ txt</p>
 	
 	</body>
 </html>
+
+<script>
+	changeContrast();
+
+function changeContrast() {
+	
+	var R, G, B, C, L;
+	
+	$( "body" ).each(function() {
+
+		R = (Math.floor(Math.random() * 256));
+		G = (Math.floor(Math.random() * 256));
+		B = (Math.floor(Math.random() * 256));
+
+		$( this ).css( 'background-color', 'rgb(' + R + ',' + G + ',' + B + ')' );
+
+		C = [ R/255, G/255, B/255 ];
+
+		for ( var i = 0; i < C.length; ++i ) {
+
+			if ( C[i] <= 0.03928 ) {
+
+				C[i] = C[i] / 12.92
+
+			} else {
+
+				C[i] = Math.pow( ( C[i] + 0.055 ) / 1.055, 2.4);
+
+			}
+
+		}
+    
+   
+
+		L = 0.2126 * C[0] + 0.7152 * C[1] + 0.0722 * C[2]; //finding out if the bg is dark or light 
+
+	/**/	if ( L > 0.23866666666 ) { //if bg is light
+
+			$( this ).css( 'color', 'blue' ); 
+    
+  } 
+   if ( L < 0.23866666666) { //if bg is medium
+    $( this ).css( 'color', 'red' );
+  } 
+		 if (L <0.11933333333) { //else if bg is dark
+
+			$( this ).css( 'color', 'GoldenRod' ); //use random light txt teal.....
+
+		}/**/
+    
+    
+  
+    
+	});
+
+
+}
+
+
+//kkklllkk
+
+
+
+//
+</script>
