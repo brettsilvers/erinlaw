@@ -73,6 +73,7 @@ max-width:24%;
 }
   
   .footer{
+	  position:absolute;
 	font-family: inherit;
 	font-style: normal;
 	//color: black;
