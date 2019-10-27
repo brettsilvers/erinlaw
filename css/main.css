@@ -42,18 +42,17 @@ p, li{font-family: "Work Sans", "Arial", sans-serif;
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
 	vertical-align:middle;
-	font-weight:300;}
+	font-weight:400;}
 
 a{text-decoration:none;
-font-weight:400;}
+font-weight:500;}
 
-a:hover{font-weight:500;}
+a:hover{font-weight:600;}
 
-a:active, a:target, li:active, li:target{font-weight:600;}
+a:active, a:target, li:active, li:target{font-weight:700;}
 
-p{font-weight: 300;}
 
-strong{font-weight: 500;}
+strong{font-weight: 600;}
 
 .container{
 	//max-width:640px;
