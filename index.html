@@ -90,13 +90,13 @@ function changeContrast() {
 	
 	var R, G, B, C, L;
 	
-	$( "hero-segment" ).each(function() {
+	$( "#hero-segment" ).each(function() {
 
 		R = (Math.floor(Math.random() * 256));
 		G = (Math.floor(Math.random() * 256));
 		B = (Math.floor(Math.random() * 256));
 
-		$( "hero-segment" ).css( 'background-color', 'rgb(' + R + ',' + G + ',' + B + ')' );
+		$( "#hero-segment" ).css( 'background-color', 'rgb(' + R + ',' + G + ',' + B + ')' );
 
 		C = [ R/255, G/255, B/255 ];
 
