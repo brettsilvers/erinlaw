@@ -128,7 +128,7 @@ z-index:-1;
 #hero-segment{
    // background-size: cover;
 	width:100vw;
-	//margin-left: -36vw;
+	margin-left: -36vw;
 }
 
 #hero-segment:last-child{background-color:white;}
