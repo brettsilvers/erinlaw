@@ -1,7 +1,7 @@
 body{margin: 0 auto;}
 
 img, iframe{width:100%!important;
-//height:auto!important;
+height:calc(100%*,1.77777777778)!important;
 }
 
 a:hover{color:green!important;}
