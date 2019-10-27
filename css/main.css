@@ -150,6 +150,8 @@ z-index:-1;
 	container{margin-left:6vw;
 	margin-right:6vw;}
 	ul, li{display:inline;}
+	#hero-segment-image, #hero-segment{margin-left: -12vw;}
+	.segment-inner{padding-left:12vw;}
 }
 
 
