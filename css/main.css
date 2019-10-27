@@ -69,23 +69,11 @@ max-width:24%;
 	overflow:hidden;
 	object-fit:cover;
 }
-
-.footerShort{
-  width:100%;
-	position: fixed;
-	bottom: 25px;
-	font-family: inherit;
-	font-style: normal;
-	color: black;
-	text-align: center;
-	font-size: inherit;
-	font-weight: inherit;
-  }
   
   .footer{
 	font-family: inherit;
 	font-style: normal;
-	color: black;
+	//color: black;
 	text-align: center;
 	font-size: inherit;
 	font-weight: inherit;
