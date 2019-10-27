@@ -69,7 +69,7 @@ txt</p>
 </html>
 
 <script>
-	changeContrast();
+changeContrast();
 
 function changeContrast() {
 	
@@ -81,7 +81,7 @@ function changeContrast() {
 		G = (Math.floor(Math.random() * 256));
 		B = (Math.floor(Math.random() * 256));
 
-		$( this ).css( 'background-color', 'rgb(' + R + ',' + G + ',' + B + ')' );
+		$( "body" ).css( 'background-color', 'rgb(' + R + ',' + G + ',' + B + ')' );
 
 		C = [ R/255, G/255, B/255 ];
 
@@ -105,15 +105,21 @@ function changeContrast() {
 
 	/**/	if ( L > 0.23866666666 ) { //if bg is light
 
-			$( this ).css( 'color', 'blue' ); 
-    
+			$( "p" ).css( 'color', 'blue' ); 
+        $( "a" ).css( 'color', 'red' );
+
+    //
   } 
    if ( L < 0.23866666666) { //if bg is medium
-    $( this ).css( 'color', 'red' );
-  } 
+    $( "p" ).css( 'color', 'blue' );
+    $( "a" ).css( 'color', 'GoldenRod' );
+
+   } //,,,
 		 if (L <0.11933333333) { //else if bg is dark
 
-			$( this ).css( 'color', 'GoldenRod' ); //use random light txt teal.....
+			$( "p" ).css( 'color', 'GoldenRod' ); //use random light txt teal.....
+           $( "a" ).css( 'color', 'red' );
+
 
 		}/**/
     
