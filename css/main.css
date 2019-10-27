@@ -50,25 +50,21 @@ p{font-weight: 300;}
 strong{font-weight: 500;}
 
 .container{
+	//max-width:640px;
 	margin-left:12vw;
 margin-right:12vw;
 margin-top:100px;
 	max-width:76vw;;
 	width:100%;
-	//position:relative;
 }
 
 .content{margin-left:24vw;}
 
 .segment{
-//max-width:640px;
-	//height:100%;
-	//min-height:100vh;
 	min-height: calc(100vh - 100px);
 	vertical-align:middle;
 padding-top:50px;
 	padding-bottom:50px;
-	//position:absolute;
 }
 
 .segment:first-child{padding-top:0px;
@@ -115,20 +111,17 @@ z-index:-1;
 }
   
   .footer{
-	//  position:absolute;
 	font-family: inherit;
 	font-style: normal;
-	//color: black;
 	text-align: center;
 	font-size: inherit;
 	font-weight: inherit;
 	margin-bottom:25px;
-	  margin-top:50px;
+	  margin-top:25px;
 	 // vertical-align: bottom;
 }
 
 #hero-segment{
-   // background-size: cover;
 	width:100vw;
 	margin-left: -36vw;
 }
