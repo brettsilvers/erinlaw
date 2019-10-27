@@ -102,27 +102,23 @@ function changeContrast() {
 
 		L = 0.2126 * C[0] + 0.7152 * C[1] + 0.0722 * C[2]; //finding out if the bg is dark or light 
 
-	/**/	if ( L > 0.23866666666 ) { //if bg is light
+	/**/	if ( L >= 0.23866666666 ) { //if bg is light
 
 			$( "p" ).css( 'color', 'blue' ); 
         $( "a" ).css( 'color', 'red' );
-
            $( "h1" ).css( 'color', 'GoldenRod' );
-
-    //
   } 
-   if ( L < 0.23866666666) { //if bg is medium
-    $( "p" ).css( 'color', 'blue' );
+   else if ( L < 0.23866666666 && L > 0.11933333333 ) { //if bg is medium
+    $( "p" ).css( 'color', 'red' );
     $( "a" ).css( 'color', 'GoldenRod' );
-                $( "h1" ).css( 'color', 'red' );
+                $( "h1" ).css( 'color', 'blue' );
 
-
-   } //,,,
-		 if (L <0.11933333333) { //else if bg is dark
+   }
+		 else if (L <= 0.11933333333) { //else if bg is dark.....,,,kkjjjkk.k//kgg.ff.
 
 			$( "p" ).css( 'color', 'GoldenRod' ); //use random light txt teal.....
-           $( "a" ).css( 'color', 'red' );
-                  $( "h1" ).css( 'color', 'blue' );
+      $( "a" ).css( 'color', 'blue' );
+      $( "h1" ).css( 'color', 'red' );
 
 
 
