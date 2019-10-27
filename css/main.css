@@ -148,7 +148,8 @@ z-index:-1;
 	ul, li{display:inline;}
 	#hero-segment-image, #hero-segment{margin-left: -12vw;}
 	.segment-inner{padding-left:12vw;}
-	.segment:first-child{padding-bottom:50px;}
+	//.segment:first-child{padding-bottom:50px;}
+	.segment:first-child{padding-bottom:25px;}
 }
 
 
