@@ -39,7 +39,7 @@ margin-block-end: 0px;
 	margin-inline-end: 0px;
 	  -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
-	  -webkit-text-stroke-width: .75px;
+	  -webkit-text-stroke-width: 1px;
  // -webkit-text-stroke-color: white;
 }
 
