@@ -40,7 +40,7 @@ font-weight:400;}
 
 a:hover{font-weight:500;}
 
-a:active, a:target{font-weight:600;}
+a:active, a:target, li:active, li:target{font-weight:600;}
 
 p{font-weight: 300;}
 
