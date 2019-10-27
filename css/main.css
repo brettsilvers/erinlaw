@@ -60,6 +60,8 @@ margin-top:100px;
 	position:absolute
 }
 
+.segment{min-height:100vh;vertical-align:center;}
+
 .navigation{
 float:left;
 max-width:24%;
