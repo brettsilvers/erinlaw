@@ -87,10 +87,7 @@ display: block;
     margin-inline-end: 0px;
 padding-inline-start: 0px;}
 
-.segment:last-child{
-color:white;
-background-color-white;
-background:white;}
+.segment:last-child{background-color:white;}
 
 .navigation{
 float:left;
