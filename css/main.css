@@ -60,7 +60,12 @@ margin-top:100px;
 	position:absolute
 }
 
-.segment{min-height:100vh;vertical-align:center;}
+.segment{
+	//height:100%;
+	//min-height:100vh;
+	vertical-align:center;
+margin-bottom:50px;
+}
 
 .navigation{
 float:left;
@@ -68,7 +73,7 @@ max-width:24%;
 	position:fixed;
 }
 
-#pdp-video, .pdp-video {
+.pdp-video {
 	//position: fixed;
 	position:absolute;
 	right: 0;
