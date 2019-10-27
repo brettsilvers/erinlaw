@@ -150,13 +150,17 @@ function changeContrast() {
         $( "a" ).css( 'color', 'red' );
 
 			$( "h1" ).css( 'color', 'GoldenRod' );
-  } 
+
+					$( "h1" ).css( '-webkit-text-stroke-color', 'black' );
+} 
 		
    else if ( L < 0.23866666666 && L > 0.11933333333 ) { //if bg is medium
     $( "p" ).css( 'color', 'red' );
     $( "a" ).css( 'color', 'GoldenRod' );
 
                 $( "h1" ).css( 'color', 'blue' );
+	   					$( "h1" ).css( '-webkit-text-stroke-color', 'white' );
+
 
    }
 		 else if (L <= 0.11933333333) { //else if bg is dark
@@ -165,6 +169,9 @@ function changeContrast() {
       $( "a" ).css( 'color', 'blue' );
 
       $( "h1" ).css( 'color', 'red' );
+			 
+			 					$( "h1" ).css( '-webkit-text-stroke-color', 'white' );
+
 		 }
     
     
