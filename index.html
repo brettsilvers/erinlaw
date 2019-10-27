@@ -130,12 +130,16 @@ function changeContrast() {
 
 			$( "p" ).css( 'color', 'blue' ); 
         $( "a" ).css( 'color', 'red' );
-           $( "h1" ).css( 'color', 'GoldenRod' );
+        $( "a:hover" ).css( 'color', 'green' );
+
+			$( "h1" ).css( 'color', 'GoldenRod' );
   } 
 		
    else if ( L < 0.23866666666 && L > 0.11933333333 ) { //if bg is medium
     $( "p" ).css( 'color', 'red' );
     $( "a" ).css( 'color', 'GoldenRod' );
+	           $( "a:hover" ).css( 'color', 'green' );
+
                 $( "h1" ).css( 'color', 'blue' );
 
    }
@@ -143,6 +147,8 @@ function changeContrast() {
 
 			$( "p" ).css( 'color', 'GoldenRod' ); //use random light txt teal.....
       $( "a" ).css( 'color', 'blue' );
+			         $( "a:hover" ).css( 'color', 'green' );
+
       $( "h1" ).css( 'color', 'red' );
 		 }
     
