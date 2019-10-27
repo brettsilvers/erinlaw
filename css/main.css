@@ -1,6 +1,8 @@
 body{margin: 0 auto;}
 
-img, iframe{width:100%!important;}
+img, iframe{width:100%!important;
+//height:auto!important;
+}
 
 a:hover{color:green!important;}
 
@@ -158,3 +160,17 @@ margin:auto;}
 }
 
 
+/* vimeo youtube */
+.embed-container {
+	position: relative;
+	padding-bottom: 0;
+	height: 0; 
+	overflow: hidden;
+	max-width: 100%; }
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%;
+	height: 100%;}
