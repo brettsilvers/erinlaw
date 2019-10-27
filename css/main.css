@@ -85,6 +85,8 @@ padding-top:50px;
 
 .segment:first-child{padding-top:0px;
 	vertical-align:bottom;
+	padding:bottom:0;
+	bottom:50px;
 }
 
 li{list-style-type: none;
