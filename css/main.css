@@ -82,7 +82,7 @@ z-index:-1;
 }
   
   .footer{
-	  position:absolute;
+	//  position:absolute;
 	font-family: inherit;
 	font-style: normal;
 	//color: black;
@@ -90,4 +90,5 @@ z-index:-1;
 	font-size: inherit;
 	font-weight: inherit;
 	margin-bottom:25px;
+	  vertical-align: bottom
 }
