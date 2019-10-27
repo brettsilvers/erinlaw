@@ -68,11 +68,12 @@ margin-top:100px;
 padding-top:50px;
 	padding-bottom:50px;
 	//margin: 0 auto;
-	overflow:hidden;
+	//overflow:hidden;
 	position:aboslute;
 }
 
 .segment:first-child{padding-top:0px;
+	vertical-align:bottom;
 }
 
 li{list-style-type: none;
@@ -88,7 +89,7 @@ display: block;
     margin-inline-end: 0px;
 padding-inline-start: 0px;}
 
-.segment:last-child{background-color:white;}
+#hero-segment:last-child{background-color:white;}
 
 .navigation{
 float:left;
@@ -122,15 +123,17 @@ z-index:-1;
 	font-weight: inherit;
 	margin-bottom:25px;
 	  margin-top:50px;
-	  vertical-align: bottom
+	 // vertical-align: bottom;
 }
 
-#hero-segment{background-image:url("https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png");
+#hero-segment{
     background-size: cover;
 	width:100vw;
 	margin-left: -36vw;
 
 }
+
+#segment-image{background-image:url("https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png");}
 
 
 @media only screen and (max-width: 480px) {
