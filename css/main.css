@@ -32,7 +32,7 @@ p{font-family: "Work Sans", "Arial", sans-serif;
 	margin-inline-end: 0px;
 	vertical-align:middle}
 
-a{color:green;}
+a{text-decoration:none;}
 
 a:hover{font-weight:700;}
 
