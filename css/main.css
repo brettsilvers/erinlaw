@@ -63,7 +63,7 @@ margin-top:100px;
 .segment{
 	//height:100%;
 	min-height:100vh;
-	vertical-align:center;
+	vertical-align:middle;
 margin-top:50px;
 }
 
@@ -75,7 +75,9 @@ display: block;
 }
 
 .segment:nth-child{
-color:white;}
+color:white;
+background-color-white;
+baclground-white;}
 
 .navigation{
 float:left;
@@ -112,7 +114,7 @@ z-index:-1;
 }
 
 #hero-segment{background-image:url("https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png");
-		object-fit:cover;
+    background-size: cover;
 
 }
 
